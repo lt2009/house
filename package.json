@@ -1,0 +1,29 @@
+{
+  "name": "house",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@element-plus/nuxt": "^1.0.9",
+    "@nuxt/content": "^2.12.1",
+    "@nuxtjs/robots": "^3.0.0",
+    "@nuxtjs/sitemap": "^5.2.0",
+    "@vueuse/core": "^10.10.0",
+    "date-fns": "^3.6.0",
+    "element-plus": "^2.7.5",
+    "nuxt": "^3.11.2",
+    "prism-themes": "^1.9.0",
+    "prismjs": "^1.29.0",
+    "sass": "^1.77.5",
+    "twikoo": "^1.6.36",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/prismjs": "^1.26.4",
+    "vite-plugin-prismjs": "^0.0.11"
+  }
+}

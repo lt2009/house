@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "houseFont";
+  src: url("~/assets/houseFont.woff2") format("woff2");
+}
+
+body,
+.houseMain {
+  font-family: "houseFont";
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.el-header,
+.el-aside,
+.el-main,
+.el-footer {
+  display: flex;
+}
+
+.el-header,
+.el-footer {
+  align-items: center;
+  background-color: var(--el-color-primary-light-7);
+  color: var(--el-text-color-primary);
+  justify-content: center;
+}
+
+.el-aside {
+  align-items: center;
+  background-color: var(--el-color-primary-light-8);
+  color: var(--el-text-color-primary);
+  justify-content: center;
+  width:(50px !important);
+}
+
+.el-main {
+  background-color: var(--el-color-primary-light-9);
+  color: var(--el-text-color-primary);
+}
+
+.houseHide {
+  display:(none !important);
+}
+
+.houseShow {
+  display:(flex !important);
+}
+
+.houseSidebar {
+  margin-right: auto;
+}
