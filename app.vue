@@ -10,10 +10,7 @@ import "element-plus/theme-chalk/dark/css-vars.css"
 import zhCn from "element-plus/es/locale/lang/zh-cn"
 import config from "@/house.json"
 const house = {
-  avatar: config.avatar,
-  description: config.description,
-  title: config.title,
-  version: config.version,
+  title: config.title
 }
 useHead({
   titleTemplate: (titleChunk) => {
