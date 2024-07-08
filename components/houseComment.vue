@@ -10,15 +10,12 @@
 <script setup lang="ts">
 import { ChatLineRound } from "@element-plus/icons-vue"
 import config from "@/house.json"
-const house = {
-  comment: config.comment,
-}
 onMounted(async () => {
   await nextTick();
-  if (typeof window !== 'undefined') {
+  if (typeof config.comment !== 'undefined' | typeof window !== 'undefined') {
     const twikoo = await import('twikoo');
     twikoo.init({
-      envId: house.comment,
+      envId: config.comment,
       el: '#houseComment',
     });
   }
